@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./assets/js/color-modes.js"></script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src=""></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duplikat Indomie</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/navbars/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/446df394efe7ee6fc243e3bf7309efc6?family=Carolina+Valtuille"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+  </head>
+
+  <body>
+    <div class="logo-indomie">
+      <a class="navbar-brand col-lg-3 me-0" href="#">
+        <img src="./assets/images/logo-indomie.png"
+      /></a>
+    </div>
+    <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample09"
+          aria-controls="navbarsExample09"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarsExample09"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRODUCTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RECIPES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MOMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MINIGAME</a>
+            </li>
+            <li class="nav-item">
+              <a class="kanan" href="#"><i class="bi bi-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="kanan" href="#"
+                ><i class="bi bi-globe-asia-australia"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home-banner">
+      <img class="banner-img1" src="./assets/images/banner.png" alt="banner" />
+      <img class="banner-img2" src="./assets/images/banner2.png" alt="" />
+      <img class="banner-img3" src="./assets/images/banner3.png" alt="" />
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#d53939"
+        fill-opacity="1"
+        d="M0,64L60,80C120,96,240,128,360,122.7C480,117,600,75,720,74.7C840,75,960,117,1080,138.7C1200,160,1320,160,1380,160L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+      ></path>
+    </svg>
+
+    <div class="product">
+      <h1>Our Products</h1>
+      <button
+        class="btn btn-danger rounded-pill px-3"
+        type="button"
+        style="margin-bottom: 30px; font-family: roboto"
+      >
+        View All Products
+      </button>
+      <div class="row row-cols-1 row-cols-md-2 gx-6 text-center">
+        <div class="col themed-grid-col">
+          <img src="./assets/images/products1.png" alt="Indomie Mi Goreng" />
+        </div>
+        <div class="col themed-grid-col">
+          <img
+            src="./assets/images/products2.png"
+            alt="Indomie Chicken Flavour"
+          />
+        </div>
+        <div class="col themed-grid-col">
+          <h2>Indomie Mi Goreng</h2>
+        </div>
+        <div class="col themed-grid-col">
+          <h2>Indomie Chicken Flavour</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="recipes">
+      <h1>Indomie Recipes</h1>
+      <h2 style="font-size: 20px; margin: 40px 0">
+        Check out these creative recipe ideas from our Indomie fans around the
+        world or send us your favourite Indomie recipes for others to try.
+      </h2>
+
+      <div class="row row-cols-1 row-cols-md-3 gx-4 text-center">
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes1.jpg"
+              alt="Indomie Crunchy Pancake"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Crunchy Pancake</div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes2.jpg"
+              alt="Indomie Salted Egg"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Salted Egg</div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes3.jpg"
+              alt="Indomie Donuts"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Donuts</div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes4.jpg"
+              alt="Indomie Pancake"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Pancake</div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes5.jpg"
+              alt="Indomie Seafood with Sambal Matah"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Seafood with Sambal Matah</div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              src="./assets/images/recipes6.jpg"
+              alt="Indomie Casserole"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Indomie Casserole</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="moments">
+      <h1 style="padding-bottom: 50px; color: white">Indomie Moments</h1>
+
+      <div class="row row-cols-1 row-cols-md-4 gx-4 text-center">
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              style="width: 315px"
+              src="./assets/images/moments1.jpg"
+              alt="Indomie Casserole"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text" style="font-size: 14px">
+                Dengan angin musim semi yang bertiup🌸 Selamat makan Indomie😌
+                📍Distributor Indomie #toko serba ada #mini stop #7-eleven
+                #e-mart #Coupang #Pasar Kurly #Homeplus #Klub Kim #Lotte Mart
+                #Hyundai Department Store #Ikan laut, dicintai oleh orang-orang
+                di seluruh dunia selama 50 tahun
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              style="width: 315px"
+              src="./assets/images/moments2.jpg"
+              alt="Indomie Casserole"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text" style="font-size: 14px">
+                Indomie kembali 2️⃣+1️⃣ Beli 2 Indomie Mee Goreng dapat 1 lagi💕
+                Sampai jumpa sekarang di CU dan GS25😍 📍Distributor Indomie
+                #cuconveniencestore #GS25 #Ministop #7Eleven #Coupang #Pasar
+                Keriting #E-Mart 24 #E-Mart #Homeplus #Klub Kim #Lotte Mart
+                #Lotte Department Store
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              style="width: 315px"
+              src="./assets/images/moments3.jpg"
+              alt="Indomie Casserole"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text" style="font-size: 14px">
+                ‼️Acara Pelarian Labirin Indomie‼️ Kabur dari Indomie yang
+                terjebak dalam labirin!🕵️ Dengan menggabungkan surat-surat yang
+                saya kumpulkan dalam perjalanan mencari Indomie. Kami akan
+                membagikan Indomie Mee Goreng lezat dan sertifikat hadiah
+                melalui pengundian.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col themed-grid-col">
+          <div class="container">
+            <img
+              style="width: 315px"
+              src="./assets/images/moments4.jpg"
+              alt="Indomie Casserole"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text" style="font-size: 14px">
+                #Hari April Mop Kisah Nyata Dibalik Peluncuran Indomie Rasa
+                Kimchi?! Saat kimchi pedas ditambahkan ke indomie asin, Ini
+                tidak mungkin enak🤩 📍Distributor Indomie #mini stop #7-eleven
+                #e-mart #Pasar Kurly #Homeplus #Klub Kim #Pedagang E-Mart #Lotte
+                Mart #Hyundai Department Store
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event">
+      <h1>Events</h1>
+      <div class="event-ct">
+        <div class="card mb-3" style="max-width: 60%">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <img
+                style="width: 100%"
+                src="./assets/images/event.jpg"
+                alt="Event"
+              />
+            </div>
+            <div class="col-md-4" style="margin: 30px 0px">
+              <div class="card-body">
+                <h2 class="card-title">
+                  Indofood Official Partner of Indonesia Pavilion at World Expo
+                  2020 Dubai
+                </h2>
+                <h4 class="card-date" style="color: red">Oct 11, 2021</h4>
+                <p class="card-text">
+                  Indofood is proud to become the official partner of the
+                  Indonesian Pavilion at World Expo 2020.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-4 mb-3">
+            <h5>ABOUT</h5>
+            <p>
+              Indomie has come a long way since its humble beginnings in the
+              1970’s. Our noodles are made from carefully selected ingredients,
+              the best quality flour and fresh spices from the natural resources
+              of Indonesia giving it a unique and delicious flavor.
+            </p>
+          </div>
+
+          <div class="col-6 col-md-4 mb-3">
+            <h5>BROWSE</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">ABOUT US</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">PRODUCTS</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">RECIPES</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">EVENTS</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">MOMENTS</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 mb-3">
+            <form>
+              <h5>ADDRESS</h5>
+              <p>
+                Sudirman Plaza - Indofood Tower, 23rd floor. Jl. Jend. Sudirman,
+                Kav. 76-78, Setiabudi, Jakarta Selatan-DKI Jakarta 12910,
+                Indonesia
+              </p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <div>
+                  <a
+                    class="icon"
+                    href="https://www.facebook.com/Indomie/"
+                    target="_blank"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    class="icon"
+                    href="https://www.instagram.com/indomie/"
+                    target="_blank"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a
+                    class="icon"
+                    href="https://twitter.com/indomielovers?lang=en"
+                    target="_blank"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                  <a
+                    class="icon"
+                    href="https://www.youtube.com/user/Indomie"
+                    target="_blank"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row py-4 my-4 border-top">
+          <a href="https://www.indofood.com/" target="_blank">
+            <img
+              style="width: 70%"
+              src="./assets/images/logo-indofood.png"
+              alt="Logo Indofood"
+            />
+          </a>
+          <p style="margin-left: -40px">
+            © 2024 Company, Inc. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
